@@ -1,4 +1,4 @@
-//META{"name":"ReloadCall","authorId":"436557930918051842","invite":"uyAjXabBAF","donate":"https://www.paypal.me/ArmiceRp","website":"https://armice.fr"}*//
+//META{"name":"ReloadCall","authorId":"436557930918051842","invite":"uyAjXabBAF","donate":"https://www.paypal.me/ArmiceRp","website":"https://armice.fr", "source": "https://raw.githubusercontent.com/Walien-dev/BDReloadCall/main/ReloadCall.plugin.js"}*//
 
 var ReloadCall = (_ => {
 	var SO = false
