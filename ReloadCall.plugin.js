@@ -181,7 +181,7 @@ var ReloadCall = (_ => {
 					if (elms[i].innerHTML == this.channel) {
 						var cadenas = elms[i].parentElement.parentElement.querySelector('.icon-1DeIlz').getElementsByTagName('path')[0].getAttribute('d')
 						if (cadenas != LockedChannel) {
-							document.getElementsByClassName('button-14-BFJ enabled-2cQ-u7 button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN')[1].click()
+							document.querySelector('[aria-label="Déconnexion"]').click()
 							console.log("Connexion en cours au channel [" + this.channel + "]")
 							elms[i].click()
 						} else {
